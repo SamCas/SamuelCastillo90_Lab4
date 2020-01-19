@@ -1,1 +1,2 @@
 # SamuelCastillo90_Lab4
+Create a simple shopping list, where each element has a check button and a delete button. The check button will cross the element on the shopping list and the delete button will delete it.
