@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>
+
+<head>
+  <title>
+    Shopping List
+  </title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>
       Shopping List
-    </title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>
-        Shopping List
-      </h1>
-      <form>
-          <label>
-            Add an item
-          </label>
-          <input type="text" placeholder="e.g., broccoli">
-          <button type="submit">
-            Add item
-          </button>
-      </form>
-      <ul>
-      </ul>
-    </div>
-  </body>
+    </h1>
+    <form id="addItemForm">
+      <label>
+        Add an item
+      </label>
+      <input id="itemName" type="text" placeholder="e.g., broccoli">
+      <button type="submit">
+        Add item
+      </button>
+    </form>
+    <ul id="shoppingList">
+      <!-- Items go here. -->
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
 </html>

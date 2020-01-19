@@ -1,0 +1,42 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-style: italic;
+    color: gray; 
+    padding-left: 15px;
+}
+
+button {
+    border-style: ridge;
+    padding: 5px 5px;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+#shoppingList {
+    width: 500px;
+}
+
+.item-container {
+    border-width: 1px;
+    border-style: solid;   
+    border-color: lightgray;
+}
+
+.itemMethods {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px 15px 15px;
+}
+
+.itemChecked > p {
+    text-decoration: line-through;
+}
